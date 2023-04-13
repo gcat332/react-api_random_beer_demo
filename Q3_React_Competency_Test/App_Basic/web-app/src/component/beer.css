@@ -1,0 +1,87 @@
+.lightTheme {
+    background-color: white;
+    color: black;
+  }
+
+.darkTheme {
+    background-color: #6B6361;
+    color: white;
+  }
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    color: cadetblue;
+}
+
+.beer-container{
+    padding: 0;
+    margin: 0 auto;
+    width: 700px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: gainsboro;
+    border: solid 2px;
+}
+
+.dataBox{
+    padding: 0;
+    width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    color: black;
+    border: solid 1px;
+}
+
+.button-container{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.button{
+    font-size: 24px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.theme-button{
+    display: flex;
+    font-size: 12px;
+    margin-right: 10%;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.loadingIcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.loadingMsg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
